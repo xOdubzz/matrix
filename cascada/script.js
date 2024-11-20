@@ -4,6 +4,9 @@ const ctx = canvas.getContext("2d");
 canvas.width = document.body.offsetWidth;
 canvas.height = document.body.offsetHeight;
 
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 const w = canvas.width;
 const h = canvas.height;
 
